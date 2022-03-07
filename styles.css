@@ -47,3 +47,57 @@ table {
 	border-spacing: 0;
 }
 
+html {
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    Font-size: 15px;
+    line-height: 1.5;
+}
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.panel-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 50px;
+    width: 90%;
+    max-width: 960px;
+}
+
+.panel-sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0px 0px;
+    padding: 35px;
+}
+.panel-suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 35px;    
+}
+.panel-luxury {
+    background-color:  hsl(179, 100%, 13%);
+    border-radius: 0px 0px 10px 10px;
+    padding: 35px;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 25px;
+    padding-bottom: 15px;
+
+}
+.panel-img {
+    margin-bottom: 15px;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    color: darkcyan;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
