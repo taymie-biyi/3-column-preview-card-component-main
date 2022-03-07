@@ -56,7 +56,8 @@ body {
     font-weight: 200;
     display: flex;
     justify-content: center;
-    width: 90%;
+    align-content: center;
+    width: 100%;
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
@@ -67,7 +68,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 35px 15px;
-    max-width: 960px;
+    max-width: 950px;
     line-height: 1.5;
 }
 .panel-sedans {
@@ -120,3 +121,14 @@ h1 {
     margin-bottom: 20px;
 }
 .attribution a {color: hsl(228, 45%, 44%);}
+@media (min-width: 800px){
+    .panel-table {
+        flex-direction: row;
+      }
+      .panel-sedans {
+        border-radius: 10px 0px 0px 10px;
+      }
+      .panel-luxury {
+          border-radius: 0px 10px 10px 0px;
+      }
+    }
